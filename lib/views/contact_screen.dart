@@ -30,8 +30,8 @@ class ContactScreen extends StatelessWidget {
             ListTile(
               leading: const Icon(Icons.phone),
               title: const Text('Phone'),
-              subtitle: const Text('+91-9876543210'),
-              onTap: () => launchUrl(Uri.parse('tel:+919876543210')),
+              subtitle: const Text('+91-9619380028'),
+              onTap: () => launchUrl(Uri.parse('tel:+919619380028')),
             ),
             ListTile(
               leading: const Icon(Icons.web),
@@ -43,9 +43,9 @@ class ContactScreen extends StatelessWidget {
             ListTile(
               leading: const Icon(Icons.link),
               title: const Text('LinkedIn'),
-              subtitle: const Text('linkedin.com/in/dainavi-purav'),
-              onTap: () =>
-                  launchUrl(Uri.parse('https://linkedin.com/in/dainavi-purav')),
+              subtitle: const Text('linkedin.com/in/dainavi-purav-5b3a7b114'),
+              onTap: () => launchUrl(Uri.parse(
+                  'https://www.linkedin.com/in/dainavi-purav-5b3a7b114')),
             ),
           ],
         ),
